@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+:root {
+  --violeta: #8b48bf;
+  --celeste: #3cddf3;
+  --azulGrisOscuro: #1e1e26;
+  --azulOscuro: #232851;
+  --grisClaro: rgb(249, 249, 249);
+}
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 3em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-links li a {
+  margin: 0 1em;
+  color: var(--azulGrisOscuro);
+  text-decoration: none;
+}
+.nav-links li a:hover {
+  color: #4f4f81;
+}
+button.primario {
+  color: var(--grisClaro);
+  background-color: var(--violeta);
+  padding: 1em 3em;
+  border-radius: 2em;
+  border: none;
+}
+.first-section {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  padding: 3em 6em 3em 6em;
+}
+.first-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2em;
+}
+.first-section div p:first-child {
+  font-weight: 700;
+  font-size: 3.5em;
+  line-height: 57.3px;
+  color: var(--azulOscuro);
+  text-align: right;
+}
+.first-section div p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.second-section {
+  background-color: var(--grisClaro);
+}
+.second-section header,
+.know-teams {
+  background-color: var(--violeta);
+  color: whitesmoke;
+  font-family: Be Vietnam Pro;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 4em;
+  gap: 5em;
+}
+
+.second-section header p:first-child,
+.know-teams p:first-child {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.second-section header p:nth-child(2) {
+  font-family: Be Vietnam Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.second-section .main div p {
+  font-size: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: flex-start;
+}
+.subtext {
+  color: #b3b2b7;
+}
+article {
+  margin: 2em 0 0 0;
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1em;
+  gap: 23px;
+}
+.best {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 1em 0 0 0;
+  color: var(--azulOscuro);
+}
+.players {
+  padding: 2em 1em;
+  display: flex;
+  justify-content: center;
+}
+.players-cards,
+.lebron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+}
+.players-cards img,
+.lebron img {
+  position: relative;
+  top: 3em;
+  z-index: 1;
+}
+.players-cards h4,
+.lebron h4 {
+  color: #000000;
+  position: relative;
+  top: 4em;
+  z-index: 1;
+}
+.gris-centrado {
+  background-color: #fafafa;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #b3b2b7;
+  padding: 6em;
+}
+.name {
+  position: relative;
+  top: 20px;
+}
+.btn-center {
+  text-align: center;
+  margin: 0 0 5em 0;
+}
+.btn-go {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 1em 3em;
+  border: none;
+}
+.know-teams {
+  justify-content: space-around;
+}
+footer {
+  background-color: #1e1e26;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logofooter {
+  padding: 2em 0 1em 4em;
+  width: 200px;
+}
+.redes {
+  padding: 2em 4em 3em 4em;
+  justify-content: space-between;
+}
+footer .footer-box-1 a {
+  padding: 0.5em;
+}
+
+.navigation {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navigation nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 3em 0em;
+}
+.navigation nav ul {
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+}
+footer nav a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.footer-box-3 {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  display: flex;
+  border-radius: 4em;
+  border: none;
+  padding: 1em;
+}
+form {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 0 0 4em 0;
+}
+footer div p {
+  color: white;
+  margin-left: 22%;
+  font-size: 12.5px;
+}
+.hmg-menu,
+.copyright-reverse {
+  display: none;
+}
+
+/* MEDIA QUERYS */
+@media (max-width: 480px) {
+  .nav-links,
+  header nav ul li button,
+  .copyright {
+    display: none;
+  }
+  .hmg-menu,
+  .copyright-reverse {
+    display: block;
+  }
+  .first-section img {
+    width: 400px;
+  }
+  .first-section {
+    flex-direction: column;
+    padding: 3em 0;
+  }
+  .players-cards {
+    display: none;
+  }
+  footer {
+    padding: 2em;
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+  form {
+    justify-content: center;
+  }
+  .know-teams,
+  .second-section header {
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--celeste);
+    padding: 3em 2em;
+  }
+  .know-teams button {
+    background-color: var(--azulOscuro);
+    color: whitesmoke;
+  }
+  .gris-centrado {
+    padding: 5em 1em 1em 1em;
+  }
+  .first-section div {
+    padding: 2em;
+  }
+}
